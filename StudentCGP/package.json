@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cros": "^1.1.0",
+    "expres": "^0.0.5",
+    "express": "^5.2.1",
+    "install": "^0.13.0"
+  }
+}
