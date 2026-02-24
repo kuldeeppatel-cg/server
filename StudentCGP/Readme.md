@@ -14,21 +14,12 @@ Build a REST API using Express.js that manages student CGPA records stored in an
 
 ## Sample URLs
 
-<<<<<<< HEAD
-http://localhost:3000/students <br/>
-http://localhost:3000/students/topper  <br/>
-http://localhost:3000/students/average  <br/>
-http://localhost:3000/students/count   <br/>
-http://localhost:3000/students/7        <br/>
-http://localhost:3000/students/branch/cse    <br/>
-=======
 http://localhost:3000/students  <br/>
 http://localhost:3000/students/topper  <br/>
 http://localhost:3000/students/average   <br/>
 http://localhost:3000/students/count   <br/>
 http://localhost:3000/students/7   <br/>
 http://localhost:3000/students/branch/cse   <br/>
->>>>>>> 2dc74cdad85f2e12b6444825188333c79203dfde
 
 ## Steps to Run Locally
 
