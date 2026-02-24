@@ -99,7 +99,7 @@ app.get("/students/average", (req, res) => {
   const avgCgpa = students.reduce((acc, student) => acc + student.cgpa, 0) / students.length;
 
   res.status(200).json({
-    averageCGPA: avgCgpa
+    averageCGPA: avgCgpa.toFixed(2)
   });
 })
 
@@ -111,7 +111,7 @@ app.get("/students/count",(req,res)=>{
 
 app.get("/students/:id",(req,res)=>{
   const studentId = Number(req.params.id);
-  console.log("id",req.params.id)
+  // console.log("id",req.params.id)
   const student = students.find(k => k.id === studentId);
    
   if(!student){
