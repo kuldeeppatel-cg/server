@@ -77,6 +77,10 @@ const students = [
   }
 ];
 
+app.get("/",(req,res)=>{
+   res.status(200).send("Server is running created by Kuldeep Patel")
+})
+
 app.get("/students", (req, res) => {
   res.status(200).json(students);
 });
