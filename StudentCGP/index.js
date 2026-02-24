@@ -1,5 +1,5 @@
 const express = require("express");
-const cors = require("cros");
+const cros = require("cros");
 
 const app = express();
 app.use(cros());
