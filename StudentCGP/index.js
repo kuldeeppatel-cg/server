@@ -1,8 +1,8 @@
 const express = require("express");
-const cros = require("cros");
+const cors = require('cors');
 
 const app = express();
-app.use(cros());
+app.use(cors());
 
 const students = [
   {
