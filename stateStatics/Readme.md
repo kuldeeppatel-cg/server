@@ -35,6 +35,6 @@ http://localhost:3000/states/highest-gdp  <br/>
 
 ## Deployed Link
 
-https://e-commercebykuldeep.onrender.com/products             ->  api url
+https://statestaticsbykuldeep.onrender.com/states             ->  api url
 
 https://documenter.getpostman.com/view/50839348/2sBXcHheBV    ->  Postman documentation url
