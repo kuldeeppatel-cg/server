@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 
-
 const products = [
     { id: 1, name: "Wireless Mouse", category: "Electronics", price: 799, stock: 25, rating: 4.3 },
     { id: 2, name: "Running Shoes", category: "Footwear", price: 2499, stock: 40, rating: 4.5 },
@@ -29,6 +28,9 @@ const products = [
     { id: 24, name: "Table Clock", category: "Home Decor", price: 599, stock: 40, rating: 4.2 },
     { id: 25, name: "Fitness Tracker", category: "Electronics", price: 3499, stock: 18, rating: 4.5 }
 ];
+// middle
+
+app.use(express.json());
 
 app.get("/",(req,res)=>{
     res.status(200).send("This server is created by Kuldeep Patel ---------");
@@ -60,7 +62,7 @@ app.get("/products/category/:categoryName",(req,res)=>{
     res.status(200).json(findCategory);
 })
 
-app.use(express.json());
+
 
 app.post("/products",(req,res)=>{
     const newProduct = {
